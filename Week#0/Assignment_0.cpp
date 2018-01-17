@@ -3,7 +3,6 @@
 
 int stackystr(char*,int,int,int,int,int,char);
 int stackystrformula(int n);
-int fact(int,int);
 int stackyperm(char*,int,int,int,int,int,char);
 
 int main(){
@@ -68,8 +67,9 @@ int stackystr(char* Str,int n,int count,int i,int pos,int neg,char call){
 
 int stackystrformula(int n){
 
-	int result = (fact(n,n)/(fact(n,0)))/(n+1);
-	return result;
+  for(int i = 0;i<n;i++){
+    
+  }
 
 }
 
